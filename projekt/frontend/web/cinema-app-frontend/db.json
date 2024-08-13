@@ -1,0 +1,236 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "name": "Pulp fiction",
+      "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "genre": "Crime, Drama",
+      "duration": 154,
+      "actors": "John Travolta, Uma Thurman, Samuel L. Jackson",
+      "director": "Quentin Tarantino",
+      "image": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Godzilla Minus One",
+      "description": "Post-war Japan is at its lowest point when a new crisis emerges in the form of a giant monster, baptized in the horrific power of the atomic bomb.",
+      "genre": "Action, Adventure, Drama",
+      "duration": 124,
+      "actors": "Minami Hamabe, Ryunosuke Kamiki, Sakura Andô",
+      "director": "Takashi Yamazaki",
+      "image": "https://m.media-amazon.com/images/M/MV5BY2M1MzI1MTQtZTJiZS00MGFmLWJmOWQtOGZiN2VkYzU1ODA0XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg"
+    },
+    {
+      "id": "3",
+      "name": "The Dark Knight",
+      "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+      "genre": "Action, Crime, Drama",
+      "duration": 152,
+      "actors": "Christian Bale, Heath Ledger, Aaron Eckhart",
+      "director": "Christopher Nolan",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Back to the Future",
+      "description": "Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
+      "genre": "Adventure, Comedy, Sci-Fi",
+      "duration": 116,
+      "actors": "Michael J. Fox, Christopher Lloyd, Lea Thompson",
+      "director": "Robert Zemeckis",
+      "image": "https://m.media-amazon.com/images/M/MV5BZmU0M2Y1OGUtZjIxNi00ZjBkLTg1MjgtOWIyNThiZWIwYjRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
+    }
+  ],
+  "screenings": [
+    {
+      "id": "1",
+      "start_time": "15:00",
+      "date": "29.6.2024.",
+      "movie_id": 1,
+      "ongoing": "true"
+    },
+    {
+      "id": "2",
+      "start_time": "17:30",
+      "date": "30.6.2024.",
+      "movie_id": 2,
+      "ongoing": "true"
+    },
+    {
+      "id": "3",
+      "start_time": "21:00",
+      "date": "28.6.2024.",
+      "movie_id": 3,
+      "ongoing": "true"
+    },
+    {
+      "id": "4",
+      "start_time": "10:00",
+      "date": "28.6.2024.",
+      "movie_id": 4,
+      "ongoing": "false"
+    }
+  ],
+  "screeningSeats": [
+    {
+      "id": "1",
+      "screening_id": 1,
+      "status": false
+    },
+    {
+      "id": "2",
+      "screening_id": 1,
+      "status": false
+    },
+    {
+      "id": "3",
+      "screening_id": 1,
+      "status": false
+    },
+    {
+      "id": "4",
+      "screening_id": 1,
+      "status": false
+    },
+    {
+      "id": "5",
+      "screening_id": 1,
+      "status": false
+    },
+    {
+      "id": "6",
+      "screening_id": 1,
+      "status": false
+    },
+    {
+      "id": "7",
+      "screening_id": 1,
+      "status": false
+    },
+    {
+      "id": "8",
+      "screening_id": 1,
+      "status": false
+    },
+    {
+      "id": "9",
+      "screening_id": 2,
+      "status": false
+    },
+    {
+      "id": "10",
+      "screening_id": 2,
+      "status": false
+    },
+    {
+      "id": "11",
+      "screening_id": 2,
+      "status": true
+    },
+    {
+      "id": "12",
+      "screening_id": 2,
+      "status": false
+    },
+    {
+      "id": "13",
+      "screening_id": 2,
+      "status": false
+    },
+    {
+      "id": "14",
+      "screening_id": 2,
+      "status": true
+    },
+    {
+      "id": "15",
+      "screening_id": 2,
+      "status": false
+    },
+    {
+      "id": "16",
+      "screening_id": 2,
+      "status": false
+    },
+    {
+      "id": "17",
+      "screening_id": 3,
+      "status": false
+    },
+    {
+      "id": "18",
+      "screening_id": 3,
+      "status": true
+    },
+    {
+      "id": "19",
+      "screening_id": 3,
+      "status": true
+    },
+    {
+      "id": "20",
+      "screening_id": 3,
+      "status": true
+    },
+    {
+      "id": "21",
+      "screening_id": 3,
+      "status": false
+    },
+    {
+      "id": "22",
+      "screening_id": 3,
+      "status": true
+    },
+    {
+      "id": "23",
+      "screening_id": 3,
+      "status": true
+    },
+    {
+      "id": "24",
+      "screening_id": 3,
+      "status": true
+    },
+    {
+      "id": "25",
+      "screening_id": 4,
+      "status": true
+    },
+    {
+      "id": "26",
+      "screening_id": 4,
+      "status": true
+    },
+    {
+      "id": "27",
+      "screening_id": 4,
+      "status": true
+    },
+    {
+      "id": "28",
+      "screening_id": 4,
+      "status": true
+    },
+    {
+      "id": "29",
+      "screening_id": 4,
+      "status": false
+    },
+    {
+      "id": "30",
+      "screening_id": 4,
+      "status": true
+    },
+    {
+      "id": "31",
+      "screening_id": 4,
+      "status": true
+    },
+    {
+      "id": "32",
+      "screening_id": 4,
+      "status": true
+    }
+  ]
+}

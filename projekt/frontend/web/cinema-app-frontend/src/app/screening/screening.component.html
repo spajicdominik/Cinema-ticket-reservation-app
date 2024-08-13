@@ -1,0 +1,12 @@
+<div *ngIf="screenings$ | async as screenings">
+  <h3>Screening Times</h3>
+  <div class="screenings">
+    <div
+      *ngFor="let screening of screenings"
+      (click)="selectScreening(screening.id)"
+      class="screening-time"
+    >
+      {{ screening.start_time }} - {{ screening.date }}
+    </div>
+  </div>
+</div>

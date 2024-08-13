@@ -1,0 +1,17 @@
+.seat {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #000000;
+    text-align: center;
+  }
+.seat.available {
+    background-color: #90ee90; 
+}
+.seat.reserved {
+    background-color: #fd0905; 
+    cursor: not-allowed;
+}
+.seat.selected {
+    background-color: #32afd8; 
+  }

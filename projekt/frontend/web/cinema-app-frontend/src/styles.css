@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+
+.brand-name {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #40E0D0 ;
+  }
+  
+  .brand-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .brand-logo {
+    width: 60px;
+    height: auto;
+    margin-right: 10px; 
+  }
+  
+  .brand-name h1 {
+    font-size: 1.5em; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+:root {
+    --primary-color: #000000; 
+    --accent-color: #40E0D0;  
+    --card-background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

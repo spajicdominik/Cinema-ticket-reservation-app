@@ -1,0 +1,15 @@
+<div class="theatre" *ngIf="seats$ | async as seats">
+  <div class="row" *ngFor="let row of rows; let rowIndex = index">
+    <app-seat
+      *ngFor="let seat of seats | slice : row.start : row.end; let seatIndex = index"
+      [seat]="seat"
+      [seatNumber] = "rowIndex * rows[0].end + seatIndex + 1"
+      [selected]="seat.id === selectedSeatId"
+      (select)="selectSeat($event)"
+    >
+    </app-seat>
+  </div>
+</div>
+<div class="reserve-button-container" *ngIf="selectedSeatId != null">
+  <button (click)="reserveSeat()">Reserve</button>
+</div>

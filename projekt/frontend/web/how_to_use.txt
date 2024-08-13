@@ -1,0 +1,1 @@
+Inicijalizirati Angular demo projekt - nakon toga napraviti pull/merge request
